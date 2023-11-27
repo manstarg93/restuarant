@@ -1,0 +1,39 @@
+.header{
+height: 50px;
+background-color: black;
+padding: 10px;
+
+z-index: 10;
+display: flex;
+justify-content: center;
+text-align: right;
+}
+
+.nav{
+display: flex;
+
+align-items: center;
+gap: 50px;
+z-index: 11;
+position: absolute;
+
+}
+
+.navList{
+list-style: none;
+color: white;
+}
+
+.navLink{
+list-style: none;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+.navLink:hover{
+     color: #d28901;
+}
+
+.navLink:active{
+    color: orange;
+}

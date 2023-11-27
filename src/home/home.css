@@ -1,0 +1,44 @@
+
+
+.banner{
+height: 100vh;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+
+
+}
+
+.bannerBackDrop{
+    background-color: black;
+    opacity: .7;
+    position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 100vh;
+width: 100%;
+z-index: 2;
+}
+
+.bannerImage{
+    width: 100%;
+
+}
+
+.bannerContentContainer{
+color: white;
+width: 40%;
+position: absolute;
+transform: translate(-50%, -30%);
+top: 50%;
+left: 30%;
+
+
+}
